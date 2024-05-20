@@ -8,3 +8,16 @@
   min-height: 100vh;
   display: flex;
 }
+@keyframes Fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+   
+    opacity: 1;
+  }
+}
+
+#element {
+  animation: Fadein 2s ease-in-out;
+}

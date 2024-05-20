@@ -2,6 +2,8 @@ import React from "react";
 import { assets } from "../../assets/assets";
 import "./main.css";
 
+
+
 const main = () => {
   return (
     <div className="w-[100vw]  bg-white">
@@ -14,10 +16,10 @@ const main = () => {
         />
       </div>
 
-      
       <div className="main-container px-[5%]  md:text-lg ">
         <div className="greet  py-3 mb-3 text-3xl md:text-6xl text-gray-300 font-semibold">
-          <p className="gradient-text">Hello, Rehan</p>
+      <span id="element"  className="gradient-text">Hello, Rehan</span>
+
           <p>How Can I Help You Today?</p>
         </div>
         <div className="cards flex  text-[6px] md:text-xl   md:space-x-4 space-x-2 ">
@@ -84,10 +86,6 @@ const main = () => {
           Copyright &copy; 2024 Google inc. | All Rights Reserved
         </p>
       </div>
-
-      <span id="element"></span>
-
-
     </div>
   );
 };
