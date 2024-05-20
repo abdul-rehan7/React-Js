@@ -4,7 +4,7 @@ const sidebar = () => {
   const [extended, setExtended] = useState(false);
 
   return (
-    <div className=" flex flex-col text-xs md:text-base min-h-[100vh] bg-gray-200  md:px-4 py-5 justify-between w-auto ">
+    <div className=" flex flex-col text-xs md:text-base min-h-[100vh] bg-gray-200  pl-1 md:px-4 py-5 justify-between w-auto ">
       {/* ============================ TOP ========================== */}
       <div className=" w-auto space-y-3 ">
         <img
