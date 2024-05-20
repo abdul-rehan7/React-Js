@@ -8,7 +8,7 @@ const main = () => {
   return (
     <div className="w-[100vw]  bg-white">
       <div className="flex justify-between text-gray-500 text-xl p-[1rem]">
-        <p className="md:text-3xl">Gemini</p>
+        <p className="md:text-3xl md:ml-[1%]">Gemini</p>
         <img
           className="rounded-full w-[2rem] h-[2rem]"
           src={assets.user_icon}
