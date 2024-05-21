@@ -3,8 +3,8 @@ import { assets } from "../../assets/assets";
 
 const Search = () => {
   return (
-    <div className="bottom bg-black flex flex-row justify-center">
-    <div className="main-bottom  fixed flex  left-[18%] md:left-[20%] bottom-[4%] rounded-full justify-center text-center md:justify-between md:p-2 md:px-2  bg-gray-300 w-[80vw]  md:w-[70%] space-x-1">
+    <div className=" bg-black flex flex-row justify-center">
+    <div className="main-bottom  fixed flex  left-[18%] md:left-[20%] bottom-[3%] rounded-full justify-center text-center md:justify-between md:p-2 md:px-2  bg-gray-300 w-[80vw]  md:w-[70%] space-x-1">
       <input
         type="search"
         placeholder="Enter a prompt Here"

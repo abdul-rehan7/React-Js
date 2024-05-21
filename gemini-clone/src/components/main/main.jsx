@@ -6,13 +6,13 @@ import Navbar from "../main/navbar";
 
 const main = () => {
   return (
-    <div className="main-container  px-[3%]  md:text-lg ">
+    <div className="main-container  px-[2%]  md:text-lg ">
       <Navbar />
-      <div className="main ml-[20%]  mt-[20%] md:ml-[10%] md:mt-[7%] ">
-        <div className="greet py-3 mb-3 text-3xl md:text-6xl text-gray-300 font-semibold">
+      <div className="main ml-[19%]  mt-[20%] md:ml-[10%] md:mt-[7%] ">
+        <div className="greet py-3 mb-3 text-4xl md:text-6xl text-gray-300 font-medium">
           <Typed />
 
-          <p>How Can I Help You Today?</p>
+          <p className="text-4xl md:text-6xl ">How Can I Help You Today?</p>
         </div>
         <div className="cards flex  text-[6px] md:text-xl   md:space-x-4 space-x-2 ">
           <div className="card cursor-pointer hover:bg-gray-300 flex flex-col justify-between   w-[40%] h-auto border-[1px] p-[.3rem] md:p-[1rem] border-none rounded-md bg-gray-200">
