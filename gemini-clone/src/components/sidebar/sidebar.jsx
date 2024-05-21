@@ -4,9 +4,9 @@ const sidebar = () => {
   const [extended, setExtended] = useState(false);
 
   return (
-    <div className=" z-40 flex flex-col text-xs md:text-base min-h-[100vh] bg-gray-200  pl-1 md:px-4 py-5 justify-between w-auto ">
+    <div className=" z-40 fixed  flex flex-col  text-xs md:text-base min-h-[100vh] bg-gray-200  pl-1 md:px-4 py-5 justify-between w-auto ">
       {/* ============================ TOP ========================== */}
-      <div className=" w-auto space-y-3 ">
+      <div  className="w-auto space-y-3 ">
         <img
           onClick={() => setExtended((prev) => !prev)}
           className="menu mb-16  w-5 block mx-4 cursor-pointer"
@@ -36,19 +36,19 @@ const sidebar = () => {
       </div>
       {/* ============================ BOTTOM ========================== */}
       <div className="bottom flex flex-col  space-y-1">
-        <div className="item  flex space-x-2 hover:bg-gray-300 rounded-full p-2 cursor-pointer    items-center ">
+        <div className="item  flex space-x-2 w-[80%] md:w-[75%] hover:bg-gray-300 rounded-full p-2 cursor-pointer    items-center ">
           <img className="w-5 h-5" src={assets.question_icon} alt="" />
-          {extended ? <p className="">Help</p> : null}
+          {extended ? <p className=" md:w-[30vw] ">Help</p> : null}
         </div>
 
-        <div className="item flex space-x-2 hover:bg-gray-300 rounded-full p-2 cursor-pointer  items-center ">
+        <div className="item flex space-x-2 w-[80%] md:w-[75%]  hover:bg-gray-300 rounded-full p-2 cursor-pointer  items-center ">
           <img className="w-5 h-5" src={assets.history_icon} alt="" />
-          {extended ? <p className="">Activity</p> : null}
+          {extended ? <p className=" md:w-[30vw] ">Activity</p> : null}
         </div>
 
-        <div className="item flex space-x-2 hover:bg-gray-300 rounded-full p-2 cursor-pointer   items-center">
+        <div className="item flex space-x-2 w-[80%] md:w-[75%]  hover:bg-gray-300 rounded-full p-2 cursor-pointer   items-center">
           <img className="w-5 h-5" src={assets.setting_icon} alt="" />
-          {extended ? <p className="">Settings</p> : null}
+          {extended ? <p className=" md:w-[30vw] ">Settings</p> : null}
         </div>
       </div>
     </div>
