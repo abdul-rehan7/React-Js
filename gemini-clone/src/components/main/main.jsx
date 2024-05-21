@@ -46,9 +46,7 @@ const main = () => {
             />
           </div>
         </div>
-       
       </div>
-     
     </div>
   );
 };

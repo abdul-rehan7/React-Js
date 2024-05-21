@@ -7,7 +7,7 @@ function MyComponent() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Hello, Rehan"],
+      strings: ["Hello, Buddy!"],
       typeSpeed: 30,
     });
 
