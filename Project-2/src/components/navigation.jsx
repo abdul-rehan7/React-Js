@@ -1,7 +1,7 @@
 const navigation = () => {
   return (
     <div >
-      <nav className="flex justify-between px-4 md:py-2 md:px-7 md:text-xl items-center">
+      <nav className="flex fixed md:w-[100vw] justify-between bg-gray-50 px-4 md:py-2 md:px-7 md:text-xl items-center">
         <div className="logo ">
           <img className="w-[30%] md:w-[10%]" src="/imgs/logo.png" alt="" />
         </div>
